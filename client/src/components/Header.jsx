@@ -19,7 +19,7 @@ export default function Header() {
               <Landmark size={22} />
             </div>
             <div>
-              <div className="brand-title">Govt Museum & Zoo AI</div>
+              <div className="brand-title">AETHERIA</div>
               <div className="brand-subtitle">Ticketing & Visitor Assistance Platform</div>
             </div>
           </Link>
