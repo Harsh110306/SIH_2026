@@ -1,8 +1,37 @@
+# Dependencies
 node_modules/
-.env
+/.pnp
+.pnp.js
+
+# Testing & Coverage
+coverage/
+
+# Production Build
 dist/
 build/
-.DS_Store
+
+# Environment & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Databases
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Logs
+logs
 *.log
-coverage/
-.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor & System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
